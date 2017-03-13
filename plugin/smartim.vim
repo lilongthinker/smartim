@@ -2,7 +2,7 @@ if exists('did_smartim_loaded') | finish | endif
 let did_smartim_loaded = 1
 
 if !exists("g:smartim_default")
-    let g:smartim_default = "com.apple.keylayout.US"
+    let g:smartim_default = "com.apple.keylayout.ABC"
 endif
 
 let s:imselect_path = expand('<sfile>:p:h') . "/im-select "
